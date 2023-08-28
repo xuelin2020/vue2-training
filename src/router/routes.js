@@ -35,7 +35,7 @@ export const appRoutes = [
           title: '表格页',
           icon: 'table'
         },
-        component: () => import(/* webpackChunkName: "table" */ '@/views/table/table')
+        component: () => import(/* webpackChunkName: "table" */ '@/views/table2/table')
       },
       {
         path: 'dashboard',
